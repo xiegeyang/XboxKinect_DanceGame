@@ -1,0 +1,96 @@
+Initialize engine version: 5.2.0f3 (e7947df39b5c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 10.18.13.5384]
+    Renderer: NVIDIA GeForce GTX 580M
+    Vendor:   NVIDIA
+    VRAM:     1996 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\OpenCvSharp.dll (this message is harmless)
+Loading D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\OpenCvSharp.dll into Unity Child Domain
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\ICSharpCode.SharpZipLib.dll (this message is harmless)
+Loading D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\ICSharpCode.SharpZipLib.dll into Unity Child Domain
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.054 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\Dance Game Project\Dance Game V6\playScene_Data\Managed\System.dll (this message is harmless)
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/.\Kinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/.\Kinect10
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/libKinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/.\libKinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/libKinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/.\Kinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/.\Kinect10
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/Kinect10
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/libKinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/.\libKinect10.dll
+Fallback handler could not load library D:/Dance Game Project/Dance Game V6/playScene_Data/Mono/libKinect10.dll
+x32-architecture detected.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Could not delete file: ./KinectUnityAddin.dll
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+OpenNI2-folder not found (check OPENNI2_REDIST).
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+KM is restarting level...
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 849.
+Total: 0.263251 ms (FindLiveObjects: 0.082613 ms CreateObjectMapping: 0.017978 ms MarkObjects: 0.154526 ms  DeleteObjects: 0.006420 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.665977 ms
+No sensor found. Make sure you have installed the SDK and the sensor is connected.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Exception: No sensor found. Make sure you have installed the SDK and the sensor is connected.
+  at KinectManager.StartKinect () [0x00000] in <filename unknown>:0 
+UnityEngine.Debug:Internal_LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+KinectManager:StartKinect()
+KinectManager:Awake()
+ 
+(Filename:  Line: -1)
+
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 838.
+Total: 0.258543 ms (FindLiveObjects: 0.092887 ms CreateObjectMapping: 0.018406 ms MarkObjects: 0.133980 ms  DeleteObjects: 0.011129 ms)
+
+System.Exception: Visual gesture tracking cannot be started, because the KinectManager is missing or not initialized.
+  at VisualGestureManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1dcc -> priority: 1 
+  Thread -> id: 2a70 -> priority: 1 

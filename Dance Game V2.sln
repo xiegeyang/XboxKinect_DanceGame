@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dance Game V2.CSharp", "Dance Game V2.CSharp.csproj", "{319C117A-9F37-6AAF-CB6B-3DB143230D68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dance Game V2.CSharp.Editor", "Dance Game V2.CSharp.Editor.csproj", "{2BA9A0F6-841B-98E1-DDB8-B2438E048F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{319C117A-9F37-6AAF-CB6B-3DB143230D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319C117A-9F37-6AAF-CB6B-3DB143230D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319C117A-9F37-6AAF-CB6B-3DB143230D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319C117A-9F37-6AAF-CB6B-3DB143230D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BA9A0F6-841B-98E1-DDB8-B2438E048F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA9A0F6-841B-98E1-DDB8-B2438E048F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA9A0F6-841B-98E1-DDB8-B2438E048F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA9A0F6-841B-98E1-DDB8-B2438E048F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

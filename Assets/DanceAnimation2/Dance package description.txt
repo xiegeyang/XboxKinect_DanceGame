@@ -1,0 +1,25 @@
+Dance Package
+
+This package features a collection of fbx animations for a bipedal humanoid character performing various dance moves
+
+High Rythm Dance 01:A series of dance moves set to a quick tempo
+
+High Rythm Dance 02:A series of rapid dance moves set to a quick tempo
+
+High Rythm Dance 03:A series of dance moves with a great deal of movement and some breakdancing set to a quick tempo
+
+High Rythm Dance 04:A series of rapid dance moves culminating in a pirouette 
+
+Mid Rythm Dance 01:A series of dance moves set to a medium tempo
+
+Mid Rythm Dance 02:An alternate series of dance moves set to a medium tempo
+
+Mid Rythm Dance 03:A series of dance moves with rapid arm and hand movements set to a medium tempo
+
+Slow Rythm Dance 01:A series of robotic dance moves set to a slow tempo
+
+Slow Rythm Dance 02:a series of fluid dance moves set to a slow tempo
+
+Moonwalk Dance: Moonwalking first backwards then in a sideways spin
+
+If you have any questions feel free to contact us at morromotion.forumotion.com
