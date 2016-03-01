@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-[RequireComponent(typeof(HumanBones))]
+//[RequireComponent(typeof(HumanBones))]
 public class SetAllLines : MonoBehaviour {
     public GameObject linesFather;
 
