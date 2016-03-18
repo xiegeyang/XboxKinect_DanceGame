@@ -37,6 +37,8 @@ public class JustinScoreShow : MonoBehaviour {
     public Rigidbody perfectImg;
 
     private float tempSize;
+
+    public GameObject scoreBar;
     
 
 
@@ -74,7 +76,7 @@ public class JustinScoreShow : MonoBehaviour {
     // Dance Action
     IEnumerator ScoreAnim()
     {
-        for(int i=0; i < 100; i++)
+        for(int i=0; i < 1000; i++)
         {
             yield return new WaitForSeconds(.91f);
             if(score >= 80)
@@ -90,6 +92,11 @@ public class JustinScoreShow : MonoBehaviour {
                 Rigidbody newGoodImg = Instantiate(goodImg, new Vector3(8, 5.23f, -6.98f), new Quaternion(0, 180f, 0, 0)) as Rigidbody;
             }
             totalScore += score;
+            if (totalScore >= 5000)
+            {
+                totalScore = 0;
+            }
+            scoreBar.transform.localScale = new Vector3(scoreBar.transform.localScale.x, totalScore * 0.0002f, scoreBar.transform.localScale.z);     
             scoreShow.text = totalScore.ToString();
         }
         

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxKinect_DanceGame.CSharp.Plugins", "XboxKinect_DanceGame.CSharp.Plugins.csproj", "{BDE6A178-8D8C-5D86-EBC2-B320E8AFA4F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxKinect_DanceGame.CSharp", "XboxKinect_DanceGame.CSharp.csproj", "{31B22197-066F-E8AC-9032-185E8AA981A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxKinect_DanceGame.CSharp.Editor.Plugins", "XboxKinect_DanceGame.CSharp.Editor.Plugins.csproj", "{95A68F3B-CABA-95B2-7B51-9FFDFAE43966}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE6A178-8D8C-5D86-EBC2-B320E8AFA4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE6A178-8D8C-5D86-EBC2-B320E8AFA4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE6A178-8D8C-5D86-EBC2-B320E8AFA4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE6A178-8D8C-5D86-EBC2-B320E8AFA4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B22197-066F-E8AC-9032-185E8AA981A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B22197-066F-E8AC-9032-185E8AA981A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B22197-066F-E8AC-9032-185E8AA981A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B22197-066F-E8AC-9032-185E8AA981A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A68F3B-CABA-95B2-7B51-9FFDFAE43966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A68F3B-CABA-95B2-7B51-9FFDFAE43966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A68F3B-CABA-95B2-7B51-9FFDFAE43966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A68F3B-CABA-95B2-7B51-9FFDFAE43966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
